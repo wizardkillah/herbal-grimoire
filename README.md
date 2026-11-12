@@ -1,5 +1,7 @@
 # Grimorio Herbal
 
+[![CI](https://github.com/wizardkillah/herbal-grimoire/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/wizardkillah/herbal-grimoire/actions/workflows/ci.yml) [![License: ISC](https://img.shields.io/badge/license-ISC-blue.svg)](LICENSE)
+
 Herbolario educativo presentado como un juego de taller, pensado primero para PC. Conserva el arte y los videos del invernadero.
 
 ## Ejecutar
