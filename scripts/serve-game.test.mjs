@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { createGameServer, assetPath, root, securityHeaders, PORT_BUSY_MESSAGE } from './serve-game.mjs';
-import { relative } from 'node:path';
+import { relative, sep } from 'node:path';
 
 test('an occupied port is rejected rather than silently changing the save origin', async () => {
   const first = createGameServer();
@@ -36,7 +36,9 @@ test('the launcher serves the built game, video ranges and no project secrets', 
     assert.equal((await fetch(url, { method:'HEAD' })).headers.get('content-type'), 'text/html; charset=utf-8');
     for (const path of ['/%2e%2e%5c.env.local','/..%5c..%5cpackage.json']) {
       const resolved = assetPath(path);
-      assert.ok(resolved === null || !relative(root,resolved).startsWith('..'));
+      // On POSIX a backslash is an ordinary character, so «..\.env.local» is one harmless file name inside root;
+      // what must never happen is a first path SEGMENT of «..», i.e. escaping the root.
+      assert.ok(resolved === null || relative(root,resolved).split(sep)[0] !== '..');
     }
   } finally { await new Promise(resolve => server.close(resolve)); }
 });
