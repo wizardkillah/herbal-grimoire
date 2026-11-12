@@ -1,0 +1,27 @@
+node_modules/
+dist/
+.env.local
+.env.*.local
+*.local
+
+# Vite
+.vite/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local media inspection and conversion tools
+.media-review/
+.launcher/
+Grimorio Herbal/
+
+# Python bytecode
+__pycache__/
+
+# Obsidian per-machine state
+Boveda Grimorio Herbal/.obsidian/workspace*.json
+.env
+.env.*
+!.env.example
+*.local

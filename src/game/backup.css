@@ -1,0 +1,21 @@
+.gh-backup{margin:20px 0;padding:18px 22px;border:1px solid #82956b55;border-radius:12px;background:#192e23;color:#e7e7d7}
+.gh-backup p{font-size:13px;line-height:1.6;margin:6px 0;color:#c1ccb7}
+.gh-backup-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
+.gh-backup button,.gh-import-dialog button{padding:10px 16px;border:1px solid #a0ad7d;border-radius:8px;background:#304831;color:#f3edd8;cursor:pointer}
+.gh-backup button:disabled{opacity:.5;cursor:default}
+.gh-backup button:focus-visible,.gh-import-dialog button:focus-visible{outline:3px solid #e6cd87;outline-offset:3px}
+.gh-import-dialog{width:min(540px,92vw);max-height:90dvh;padding:28px;border:1px solid #b8ac7a;border-radius:14px;background:#1b3024;color:#eee8d4;line-height:1.7}
+.gh-import-dialog::backdrop{background:#06100bd9}
+.gh-import-dialog h2{margin-top:0}.gh-import-dialog>div{display:flex;gap:12px;flex-wrap:wrap;margin-top:20px}
+.gh-backup [role=alert],.gh-import-dialog [role=alert]{color:#ffd0b3}
+.gh-printbook{display:none}
+@media print{
+  @page{size:A4;margin:18mm}
+  html,body,#root,.gh-game{background:white!important;color:black!important;margin:0!important;padding:0!important;min-height:0!important}
+  .gh-game>*{display:none!important}
+  .gh-game>.gh-printbook{display:block!important;font:11pt/1.5 Georgia,serif;color:black}
+  .gh-printbook h1{font-size:25pt}.gh-printbook h2{font-size:17pt;break-after:avoid}.gh-printbook h3{font-size:12pt;break-after:avoid}
+  .gh-printbook article{border-top:1px solid #888;padding:10pt 0;break-inside:avoid}
+  .gh-printbook p{white-space:pre-wrap;overflow-wrap:anywhere}
+  .gh-printbook footer{border-top:1px solid #888;margin-top:20pt;padding-top:10pt;font-size:9pt}
+}

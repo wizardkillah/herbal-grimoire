@@ -1,0 +1,166 @@
+[
+  {
+    "asset": "taller-mago.webp",
+    "source": "openart-gpt-image-2-edit-1_1778358181100_d6b75d44.png",
+    "bytes": 310080
+  },
+  {
+    "asset": "taller-herbolaria.webp",
+    "source": "openart-gpt-image-2-edit-1_1778358386956_87724fd0.png",
+    "bytes": 334480
+  },
+  {
+    "asset": "guardian.webp",
+    "source": "openart-gpt-image-2-edit-1_1778343951329_68dd577a.jpg",
+    "bytes": 269766
+  },
+  {
+    "asset": "mago-mezcla.mp4",
+    "source": "openart-71d2f3efab64daf178a8d42866cd8276-db299cf6-9a2f-4a7f-91c3-6bb74569999d_1778363057303_fdabfed7.mp4",
+    "bytes": 888837,
+    "duration": 5.04
+  },
+  {
+    "asset": "herbolaria-mezcla.mp4",
+    "source": "openart-e3e6a2b079a24b16b7c30e356583de33-d259c0ec-8cb1-4df7-8212-41ec5d62ea01_1778363076618_777f777c.mp4",
+    "bytes": 1759599,
+    "duration": 5.04
+  },
+  {
+    "asset": "mago-logro.mp4",
+    "source": "openart-4c220af2b6630b205228b63ecbbfb891-9fb2f09b-5575-4e3b-b1ba-661a6a731f4c_1778362163932_29894419.mp4",
+    "bytes": 850092,
+    "duration": 5.04
+  },
+  {
+    "asset": "herbolaria-logro.mp4",
+    "source": "openart-58ad00f3e73b05b8a3d0d69fdf4184e3-a8e4fec1-037f-48d2-8edf-d4dd655731c7_1778362274539_f9f4dc80.mp4",
+    "bytes": 1093830,
+    "duration": 5.04
+  },
+  {
+    "asset": "mago-mezcla-2.mp4",
+    "source": "openart-05d18ccc4804b519241fbda002f5cf7a-685557a7-575d-41a6-a901-1549182f273e_1778359067247_126a7cbc.mp4",
+    "bytes": 848105,
+    "duration": 5.04
+  },
+  {
+    "asset": "mago-mezcla-3.mp4",
+    "source": "openart-951f9004551ccd7bc37d0d89e91d7afa-fcc5f190-4fc5-4af6-861d-7167c680096e_1778362582809_061a27cb.mp4",
+    "bytes": 1267502,
+    "duration": 5.04
+  },
+  {
+    "asset": "mago-logro-2.mp4",
+    "source": "c99460adc3310b9bbeb80bf8d8907999-8ae9753b-9c77-432c-96c1-bd46affe77e3 (1).mp4",
+    "bytes": 1353689,
+    "duration": 5.04
+  },
+  {
+    "asset": "mago-logro-3.mp4",
+    "source": "openart-ef70b85d99cb59c7a2dfb381640d3f9c-19c7cefa-a63d-4bfa-a9db-df12ad03775b_1778363830427_03f171f7.mp4",
+    "bytes": 1217943,
+    "duration": 5.04
+  },
+  {
+    "asset": "mago-ajuste.mp4",
+    "source": "openart-f30ac1abf3c0bcaa6af598e13e88a1a2-d098438d-c9bd-4579-b662-677473ddd1de_1778362957989_58e99ee9.mp4",
+    "bytes": 931267,
+    "duration": 5.04
+  },
+  {
+    "asset": "herbolaria-mezcla-2.mp4",
+    "source": "openart-24f1a19099780ecfb35ba7ada8b0e558-ab68afa6-6034-43ed-97fd-c593eea95744_1778358957973_0aa4c935.mp4",
+    "bytes": 1160809,
+    "duration": 5.04
+  },
+  {
+    "asset": "herbolaria-mezcla-3.mp4",
+    "source": "openart-6301c2bdb79641d2eee38b9f30d15a68-f26f87c6-dbea-45bf-9251-a0f2f8a1a032_1778362710484_2f94f779.mp4",
+    "bytes": 1041510,
+    "duration": 5.04
+  },
+  {
+    "asset": "herbolaria-logro-2.mp4",
+    "source": "openart-55dba6247f8c9b4d26e0c5ee4411f606-032973f1-34d0-464f-9fdb-1485205e2cff_1778363815834_685f2a6b.mp4",
+    "bytes": 1582023,
+    "duration": 5.04
+  },
+  {
+    "asset": "herbolaria-ajuste.mp4",
+    "source": "openart-1654274d7d55a9d18206d699ac661f91-4db8031e-2f22-49cb-b1a9-9cb04cdc9f13_1778362827061_3cc90ce4.mp4",
+    "bytes": 1024648,
+    "duration": 5.04
+  },
+  {
+    "asset": "bruma/calma.webp",
+    "source": "openart-021794146052658023ef2751affb9822ae18449966cb6b93909ee_1794146085843_e2501677.png",
+    "bytes": 42038
+  },
+  {
+    "asset": "bruma/habla.webp",
+    "source": "openart-0217941461418865b7c5d80188542749d9bf0e4ecbfb37fd4ee9d_1794146167006_5bf23c46.png",
+    "bytes": 95416
+  },
+  {
+    "asset": "bruma/piensa.webp",
+    "source": "openart-021794146195777e06db01f38fbb905edbc4e87c2816c5e552d56_1794146221232_701c8b6b.png",
+    "bytes": 96274
+  },
+  {
+    "asset": "bruma/saluda.webp",
+    "source": "openart-021794146250730c4d1375e87394ab549407fb4b34ce52e92ecba_1794146275877_7a5b44f8.png",
+    "bytes": 46440
+  },
+  {
+    "asset": "bruma/duerme.webp",
+    "source": "openart-02179414631370451d9d16403af386b151f4b49e66855155b7f88_1794146347172_d6bb3bb5.png",
+    "bytes": 44732
+  },
+  {
+    "asset": "bruma/camina.webp",
+    "source": "openart-021794146405388db3bb9a137825ab7489fb7012a5d616f617dd9_1794146432909_b6c22377.png",
+    "bytes": 77926
+  },
+  {
+    "asset": "bruma/calma.webm",
+    "source": "openart-68c7b41c3d732a06b2bd5bc9309a0129-9a124817-6053-4d90-89b8-5dbbf6b46e84_1794146923579_2181c0dd.mp4",
+    "bytes": 355145,
+    "duration": 5.04
+  },
+  {
+    "asset": "bruma/habla.webm",
+    "source": "openart-a42ea03ad9d84eef85bcce5b53194710-04dc0714-0669-4af7-8de5-82389e6e0e68_1794147032336_daa6636e.mp4",
+    "bytes": 703994,
+    "duration": 5.04
+  },
+  {
+    "asset": "bruma/piensa.webm",
+    "source": "openart-eccff43e42d489146a752b5a37ac17da-cb74ed6d-ce5e-4867-869c-6396947ae51f_1794147143384_c868f086.mp4",
+    "bytes": 618288,
+    "duration": 5.04
+  },
+  {
+    "asset": "bruma/saluda.webm",
+    "source": "openart-4d3d8482262cd2b81dcc97c50921c9d1-dede4084-5443-4d31-b03f-60f57a822e1d_1794147242499_8eeca1f4.mp4",
+    "bytes": 539760,
+    "duration": 5.04
+  },
+  {
+    "asset": "bruma/duerme.webm",
+    "source": "openart-de041aed8a7d297ab61f83a216384191-088b35f9-24d8-470b-8aab-58face099715_1794147337486_626b3da4.mp4",
+    "bytes": 127412,
+    "duration": 5.04
+  },
+  {
+    "asset": "bruma/camina.webm",
+    "source": "openart-412b4cc2d0936e66d5107c259ff95d51-d9146940-b004-4858-8c0c-71a66287883f_1794147425031_5aa984d6.mp4",
+    "bytes": 636779,
+    "duration": 5.04
+  },
+  {
+    "asset": "bruma/icono.png",
+    "source": "openart-0217941464959060f20bbdfc8ca54d9bbb0533a8546905c980ec8_1794146583714_5ebc90b9.png",
+    "bytes": 59294
+  }
+]

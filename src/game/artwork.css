@@ -1,0 +1,44 @@
+/* The supplied greenhouse illustrations set the visual language of the game. */
+.gh-game{background:radial-gradient(ellipse at 60% 0,#34503644,transparent 60%),#09110e;--gold:#e1c383;--muted:#bbc2ae}
+.gh-header{background:#09110edd}
+.gh-illustrated-intro{position:relative;isolation:isolate;overflow:hidden;min-height:305px;padding:38px;border:1px solid #b7a46c55;border-radius:13px;background:#111f16;align-items:flex-start;box-shadow:0 14px 60px #0004}
+.gh-illustrated-intro:before{content:'';position:absolute;inset:0;z-index:-2;background-image:var(--scene-image);background-size:cover;background-position:center 38%;opacity:.85}
+.gh-illustrated-intro:after{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#0b160ffc 0%,#0b160fdb 35%,#0b160f45 75%),linear-gradient(0deg,#0b160fee,transparent 60%)}
+.gh-illustrated-intro>div:first-child{max-width:62%;align-self:center}
+.gh-illustrated-intro h1{max-width:580px;line-height:1.13;font-size:clamp(32px,3.8vw,52px);letter-spacing:-1px;text-wrap:balance;text-shadow:0 2px 18px #0009}
+.gh-illustrated-intro>div>p:last-child{max-width:490px;color:#d4d7c5;line-height:1.75}
+.gh-illustrated-intro .gh-progress{align-self:flex-end;background:#101b13dd;backdrop-filter:blur(10px);border:1px solid #b7a46c44;border-radius:8px;padding:17px;max-width:245px;box-shadow:0 4px 22px #0003}
+.gh-workspace{grid-template-columns:minmax(250px,.95fr) minmax(380px,1.5fr) minmax(250px,.85fr)}
+.gh-panel{background:linear-gradient(135deg,#203021eb,#101c16f5);box-shadow:inset 0 1px #dfd3a008,0 12px 40px #0002}
+.gh-brewing{background:linear-gradient(155deg,#263620,#101d15);border-color:#c6ba704d}
+.gh-brewing .gh-panel-title{margin-bottom:17px}
+.gh-characters{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:16px}
+.gh-characters button{display:flex;gap:9px;align-items:center;text-align:left;min-width:0;border:1px solid #b7a46c33;border-radius:7px;padding:6px;background:#0a130db3;color:#c7cdb9;font-size:12px}
+.gh-characters button[aria-pressed=true]{border-color:#d7bd7dcc;background:#615d2838;color:#f2e5bf}
+.gh-characters img{object-fit:cover;border-radius:4px;flex-shrink:0}
+.gh-characters button>span{flex:1}
+.gh-artwork{margin:0 -22px 14px}
+.gh-film{position:relative;isolation:isolate;aspect-ratio:4/3;background:#0b130e;overflow:hidden;border-top:1px solid #c6ba7040;border-bottom:1px solid #c6ba7040}
+.gh-film>img,.gh-film>video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.gh-film>img{z-index:0}
+.gh-film>video{z-index:1}
+.gh-film:after{content:'';position:absolute;inset:65% 0 0;z-index:2;background:linear-gradient(transparent,#07130fe8);pointer-events:none}
+.gh-film .gh-film-hidden{display:none}
+.gh-film-label{position:absolute;bottom:18px;left:20px;z-index:3;font:9px system-ui;letter-spacing:1px;color:#ebdfb8;display:flex;gap:7px;align-items:center;max-width:58%;text-shadow:0 1px 6px #000}
+.gh-film-label>span{width:5px;height:5px;border-radius:50%;background:#b9db8a;box-shadow:0 0 10px #8aea52}
+.gh-film-result{position:absolute;z-index:3;right:14px;bottom:9px;display:flex;align-items:center;gap:6px;background:#102619d9;border:1px solid #cfca9266;border-radius:5px;padding:7px 10px;font:10px system-ui!important}
+.gh-film-controls{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:4px 20px;background:#0b160d99}
+.gh-film-controls button{display:flex;align-items:center;gap:6px;border:0;background:none;padding:5px 0;font:10px system-ui;color:#d1d9bd;min-height:31px}
+.gh-film-controls button[aria-pressed=false]{color:#adb9a0}
+.gh-film-notice{padding:4px 20px 8px;color:#c7d1b7;font:10px/1.5 system-ui!important;background:#0b160d99}
+.gh-brewing .gh-slots{margin-top:15px}
+.gh-library .gh-ingredients{max-height:585px}
+.gh-contract{border-color:#d6bd7d55;background:linear-gradient(155deg,#403d27d9,#1c271a)}
+.gh-illustrated-book{position:relative;isolation:isolate;overflow:hidden;min-height:235px;padding:30px;border:1px solid #b7a46c44;border-radius:10px;align-items:center;background:#122018;margin-bottom:20px}
+.gh-illustrated-book:before{content:'';position:absolute;inset:0;z-index:-2;background:url('/media/guardian.webp') right 30%/65% auto no-repeat}
+.gh-illustrated-book:after{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#101e16 25%,#101e16e8 47%,#101e1633 100%)}
+.gh-illustrated-book>div{max-width:65%}
+.gh-illustrated-book>svg{align-self:flex-start;color:#e1c383;filter:drop-shadow(0 2px 6px #000)}
+.gh-book{border-top:0;padding-top:0}
+@media(max-width:1200px){.gh-workspace{grid-template-columns:minmax(260px,1fr) minmax(350px,1.3fr)}.gh-sidebar{grid-column:span 2;display:grid;grid-template-columns:1.2fr 1fr;align-items:start}.gh-contract{grid-row:span 2}.gh-illustrated-intro{min-height:280px;padding:28px}.gh-illustrated-intro h1{font-size:39px}}
+@media(max-width:680px){.gh-illustrated-intro{min-height:365px;padding:23px;gap:24px}.gh-illustrated-intro:before{background-position:55% 25%}.gh-illustrated-intro:after{background:linear-gradient(90deg,#0b160fe8,#0b160f65),linear-gradient(0deg,#0b160ffa,transparent)}.gh-illustrated-intro>div:first-child{max-width:100%;align-self:stretch}.gh-illustrated-intro h1{font-size:36px;max-width:340px}.gh-illustrated-intro .gh-progress{align-self:stretch;max-width:none;width:100%;background:#0a180eb5;padding:14px}.gh-illustrated-intro>div>p:last-child{font-size:14px;max-width:300px}.gh-sidebar{display:flex}.gh-artwork{margin-left:-18px;margin-right:-18px}.gh-film-label{font-size:8px;left:13px}.gh-film-result{right:9px;font-size:9px!important;padding:6px}.gh-characters button{font-size:11px;gap:6px}.gh-characters img{width:36px;height:36px}.gh-film-controls{padding:4px 15px}.gh-library .gh-ingredients{max-height:260px}.gh-illustrated-book{padding:22px;min-height:255px}.gh-illustrated-book>div{max-width:95%}.gh-illustrated-book:before{background-size:cover;background-position:center}.gh-illustrated-book:after{background:#101e16d9}}

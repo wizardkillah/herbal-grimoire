@@ -1,0 +1,14 @@
+.gh-bruma-chat{border-top:1px solid #a6b18a55;margin-top:18px;padding-top:18px}
+.gh-bruma-chat h4{margin:0 0 10px;color:#e6d6a1;font-size:16px}
+.gh-bruma-chat .gh-ai-disclosure,.gh-bruma-chat small{font-size:12px;line-height:1.6;color:#c5ccb9;display:block}
+.gh-bruma-chat label{display:block;font-size:13px;margin-bottom:8px;color:#e6e2d4}
+.gh-bruma-chat textarea{width:100%;box-sizing:border-box;min-height:110px;resize:vertical;border:1px solid #819269;border-radius:8px;padding:12px;background:#101f18;color:#eee8d8;font:inherit;font-size:14px;line-height:1.5}
+.gh-bruma-chat button:disabled{opacity:.55;cursor:default}.gh-bruma-chat textarea:focus-visible,.gh-bruma-chat button:focus-visible,.gh-bruma-chat summary:focus-visible{outline:2px solid #e7d393;outline-offset:3px}
+.gh-bruma-chat .gh-ai-error{color:#ffd0b3}.gh-ai-answer{margin-top:18px}.gh-ai-answer>p{white-space:pre-wrap;overflow-wrap:anywhere}.gh-ai-answer a{color:#e2cf99}
+.gh-ai-answer .gh-ai-limit{font-size:12px;border-left:2px solid #b9aa77;padding-left:10px}.gh-ai-answer summary{cursor:pointer;color:#e2cf99;line-height:1.6}.gh-ai-answer article{margin:14px 0;padding-top:14px;border-top:1px solid #8f9d7355}
+.gh-bruma-chat [role=status]{font-size:12px;color:#bccba8;margin-top:8px}
+
+.gh-pet .gh-pet-heading{align-items:center;gap:12px;background:radial-gradient(ellipse at 35% 55%,#8b73962b,transparent 72%);border-bottom:1px solid #bfa77833;padding-bottom:12px}
+.gh-pet .gh-pet-heading .gh-bruma-cat{width:124px;height:140px;filter:drop-shadow(0 6px 8px #0005)}
+.gh-pet .gh-pet-heading h3{font-size:30px;color:#ebd69f;margin-bottom:5px}
+.gh-bruma-chat[aria-busy=true]{border-top-color:#d9bb79}

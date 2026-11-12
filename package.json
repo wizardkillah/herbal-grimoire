@@ -1,0 +1,28 @@
+{
+  "name": "grimorio-herbal",
+  "version": "8.0.0",
+  "description": "Herbolario educativo y taller virtual de recetas con ambientación de juego",
+  "scripts": {
+    "test": "node --test src/game/nature-v9.test.js src/game/nature.test.js src/game/rules.test.js src/game/catalog-assets.test.js scripts/bruma-api.test.mjs",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "Francois Rojo",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@phosphor-icons/react": "^2.1.7",
+    "@vitejs/plugin-react": "^6.3.0",
+    "clsx": "^2.1.1",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "three": "0.186.0",
+    "vite": "^8.3.8"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0"
+  }
+}

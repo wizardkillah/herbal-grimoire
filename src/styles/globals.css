@@ -1,0 +1,202 @@
+/* ═══════════════════════════════════════════════════════════════
+   GRIMORIO HERBAL v8 — Variables CSS Globales
+   IMBERT SpA · Mayo 2026
+   TODOS los textos ≥ 4.5:1 contraste (WCAG AA)
+   ═══════════════════════════════════════════════════════════════ */
+
+/* System fallback fonts keep the playable workshop independent of external CDNs. */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* ── Fondos ── */
+  --bg-base:       #080f08;   /* Fondo principal — negro verdoso */
+  --bg-card:       #0d1a0d;   /* Tarjetas y paneles */
+  --bg-surface:    #142014;   /* Superficies elevadas */
+  --bg-hover:      #1c2e1c;   /* Estado hover de items */
+  --bg-dark-path:  #0f0820;   /* Fondo Camino Oscuro */
+
+  /* ── Verdes (Camino Verde) ── */
+  --green-900:     #14532d;   /* Bordes sutiles */
+  --green-700:     #15803d;   /* Bordes activos */
+  --green-500:     #22c55e;   /* Color primario brillante */
+  --green-400:     #4ade80;   /* Textos sobre fondo oscuro */
+  --green-300:     #86efac;   /* Textos secundarios */
+  --green-100:     #dcfce7;   /* Textos de máximo contraste */
+
+  /* ── Dorado (XP, ranks, detalles) ── */
+  --gold-800:      #92400e;   /* Dorado oscuro para bordes */
+  --gold-500:      #d97706;   /* Dorado primario */
+  --gold-300:      #fcd34d;   /* Dorado brillante para títulos */
+  --gold-100:      #fef3c7;   /* Dorado muy claro */
+
+  /* ── Púrpura (Camino Oscuro) ── */
+  --purple-900:    #3b0764;
+  --purple-600:    #7c3aed;
+  --purple-400:    #a78bfa;
+  --purple-200:    #ddd6fe;
+
+  /* ── Textos — TODOS ≥ 4.5:1 contraste sobre --bg-card ── */
+  --text-primary:  #f0fdf4;   /* Blanco verdoso — contraste 15:1 */
+  --text-bright:   #bbf7d0;   /* Verde claro — contraste 10:1 */
+  --text-mid:      #86efac;   /* Verde medio — contraste 7:1 */
+  --text-subtle:   #4ade80;   /* Verde sutil — contraste 5:1 */
+  --text-muted:    #6ee7b7;   /* Verde muted — contraste 4.6:1 */
+  --text-gold:     #fcd34d;   /* Dorado textos — contraste 9:1 */
+  --text-purple:   #c4b5fd;   /* Púrpura textos — contraste 6:1 */
+
+  /* ── Tipografía ── */
+  --font-title:    'Cinzel', 'Georgia', serif;
+  --font-body:     'Crimson Pro', 'Georgia', serif;
+  --font-mono:     'JetBrains Mono', 'Courier New', monospace;
+
+  /* ── Radios ── */
+  --r-sm:   6px;
+  --r-md:   10px;
+  --r-lg:   14px;
+  --r-xl:   20px;
+  --r-full: 9999px;
+
+  /* ── Sombras ── */
+  --shadow-green:  0 0 20px rgba(34, 197, 94, 0.15);
+  --shadow-gold:   0 0 20px rgba(252, 211, 77, 0.2);
+  --shadow-purple: 0 0 20px rgba(167, 139, 250, 0.2);
+}
+
+/* ── Reset base ── */
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--bg-base);
+  color: var(--text-primary);
+  min-height: 100vh;
+  overflow-x: hidden;
+  line-height: 1.5;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* ── Scrollbar personalizada ── */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-base);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--green-900);
+  border-radius: var(--r-full);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--green-700);
+}
+
+/* ── Utilidades tipográficas ── */
+.font-title   { font-family: var(--font-title); }
+.font-body    { font-family: var(--font-body); }
+.text-gold    { color: var(--text-gold); }
+.text-primary { color: var(--text-primary); }
+.text-mid     { color: var(--text-mid); }
+.text-muted   { color: var(--text-muted); }
+.text-purple  { color: var(--text-purple); }
+
+/* ── Animaciones globales ── */
+@keyframes shimBar {
+  0%   { transform: translateX(-100%); }
+  100% { transform: translateX(220%); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(5px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.7); }
+  to   { opacity: 1; transform: scale(1); }
+}
+@keyframes xpPop {
+  0%   { opacity: 0; transform: translateY(4px); }
+  25%  { opacity: 1; transform: translateY(0); }
+  80%  { opacity: 1; }
+  100% { opacity: 0; }
+}
+@keyframes lvFlash {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
+@keyframes iconPop {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.5); }
+  100% { transform: scale(1); }
+}
+@keyframes dotPulse {
+  0%, 100% { opacity: 0.3; transform: scale(0.8); }
+  50%       { opacity: 1;   transform: scale(1.1); }
+}
+@keyframes chatSlideIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes starFloat {
+  0%   { opacity: 1; transform: translateY(0) scale(1); }
+  100% { opacity: 0; transform: translateY(-80px) scale(0); }
+}
+@keyframes vapor {
+  0%, 100% { transform: translateY(0) scaleX(1); opacity: 0.22; }
+  50%       { transform: translateY(-26px) scaleX(1.5); opacity: 0; }
+}
+@keyframes flame {
+  0%   { transform: scaleX(0.85); }
+  100% { transform: scaleX(1.15) scaleY(1.2); }
+}
+@keyframes petIdle {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-5px); }
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* ── Accesibilidad ── */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ── Focus visible global ── */
+:focus-visible {
+  outline: 2px solid var(--green-500);
+  outline-offset: 2px;
+  border-radius: var(--r-sm);
+}
+
+/* ── Inputs base ── */
+input, textarea {
+  font-family: var(--font-body);
+  color: var(--text-primary);
+  background: transparent;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--text-muted);
+  opacity: 1;
+}

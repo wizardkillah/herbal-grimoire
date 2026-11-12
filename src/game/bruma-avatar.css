@@ -1,0 +1,23 @@
+/* Bruma is a black cat on a dark interface: the violet halo behind her keeps the silhouette readable. */
+.gh-bruma-avatar {
+  position: relative; flex-shrink: 0; width: 132px; aspect-ratio: 1; border-radius: 50%;
+  background: radial-gradient(circle at 50% 58%, #a98be055, #6a4fa033 45%, transparent 70%);
+}
+.gh-bruma-avatar::after {
+  content: ''; position: absolute; left: 14%; right: 14%; bottom: 3%; height: 9%; border-radius: 50%;
+  background: radial-gradient(closest-side, #0009, transparent); z-index: 0;
+}
+.gh-bruma-avatar img, .gh-bruma-avatar video {
+  position: absolute; inset: 0; z-index: 1; width: 100%; height: 100%; object-fit: contain; object-position: center bottom;
+  filter: drop-shadow(0 0 10px #c9b3ff66);
+}
+.gh-bruma-avatar .hidden { opacity: 0; }
+.gh-bruma-avatar[data-mood=piensa] { background: radial-gradient(circle at 50% 58%, #e1c38355, #6a4fa033 45%, transparent 70%); }
+.gh-bruma-avatar[data-mood=habla] { background: radial-gradient(circle at 50% 58%, #d9c6ff88, #8a6ad044 45%, transparent 72%); }
+.gh-bruma-avatar[data-mood=duerme] { background: radial-gradient(circle at 50% 62%, #6a4fa044, transparent 65%); }
+
+.gh-pet .gh-pet-heading .gh-bruma-avatar { width: 132px; }
+.gh-ask-heading .gh-bruma-avatar { width: 150px; margin: -6px 0; }
+.gh-bruma-dialog .gh-bruma-icon { width: 54px; height: 54px; border-radius: 14px; flex-shrink: 0; box-shadow: 0 4px 16px #0006; }
+.gh-bruma-dialog > header > div:first-child { display: flex; gap: 16px; align-items: center; }
+@media (max-width: 640px) { .gh-ask-heading .gh-bruma-avatar { width: 110px; } }

@@ -1,0 +1,113 @@
+---
+tags: [contenido, moc]
+---
+# Índice de plantas
+
+101 notas generadas desde el catálogo del juego el 11-nov-2026. Los valores reflejan `src/game/herbs.js`; si el código cambia, estas notas no se actualizan solas.
+
+## Documentadas (99; 94 con enlace de fuente)
+- [[Matico]] — *Buddleja globosa* · Uso tradicional
+- [[Cedrón]] — *Aloysia citrodora* · Uso tradicional
+- [[Boldo]] — *Peumus boldus* · Uso tradicional
+- [[Muña]] — *Minthostachys mollis* · Uso tradicional
+- [[Canelo]] — *Drimys winteri* · Botánica y patrimonio
+- [[Lavanda]] — *Lavandula angustifolia* · Uso tradicional
+- [[Caléndula]] — *Calendula officinalis* · Uso tradicional
+- [[Jazmín]] — *Jasminum sambac* · Uso alimentario
+- [[Hibisco (flor de Jamaica)]] — *Hibiscus sabdariffa* · Uso alimentario
+- [[Romero]] — *Rosmarinus officinalis · nombre de la monografía* · Uso tradicional
+- [[Jengibre]] — *Zingiber officinale* · Evidencia específica
+- [[Canela]] — *Cinnamomum spp. · especie por identificar* · Uso alimentario
+- [[Cáscara de naranja]] — *Citrus × sinensis* · Uso alimentario
+- [[Maqui]] — *Aristotelia chilensis* · Composición estudiada
+- [[Miel]] — *Producto apícola* · Uso alimentario
+- [[Agua potable]] — *Agua potable* · Base de preparación
+- [[Manzanilla]] — *Matricaria recutita · también registrada como Matricaria chamomilla* · Uso tradicional
+- [[Valeriana]] — *Valeriana officinalis* · Evidencia específica
+- [[Menta]] — *Mentha × piperita* · Uso tradicional
+- [[Eucalipto]] — *Eucalyptus globulus* · Uso tradicional
+- [[Tomillo]] — *Thymus vulgaris* · Uso tradicional
+- [[Llantén]] — *Plantago major* · Uso tradicional
+- [[Bailahuén]] — *Haplopappus spp. · varias especies llamadas bailahuén* · Uso tradicional
+- [[Paico]] — *Dysphania ambrosioides · el MINSAL registra el paico chileno como Chenopodium chilense* · Uso tradicional
+- [[Quillay]] — *Quillaja saponaria* · Uso tradicional
+- [[Ajo]] — *Allium sativum* · Evidencia específica
+- [[Té Verde]] — *Camellia sinensis* · Uso alimentario
+- [[Té Negro]] — *Camellia sinensis* · Uso alimentario
+- [[Té Blanco]] — *Camellia sinensis* · Uso alimentario
+- [[Oolong]] — *Camellia sinensis* · Uso alimentario
+- [[Rooibos]] — *Aspalathus linearis* · Uso alimentario
+- [[Yerba Mate]] — *Ilex paraguariensis* · Uso tradicional
+- [[Rosa]] — *Rosa × centifolia · la monografía europea cubre también R. gallica y R. damascena* · Uso tradicional
+- [[Azahar]] — *Citrus × aurantium* · Uso tradicional
+- [[Cáscara de limón]] — *Citrus × limon* · Uso alimentario
+- [[Bergamota]] — *Citrus bergamia* · Composición estudiada
+- [[Pomelo]] — *Citrus × paradisi* · Uso alimentario
+- [[Cardamomo]] — *Elettaria cardamomum* · Uso alimentario
+- [[Anís estrellado]] — *Illicium verum* · Uso tradicional
+- [[Clavo de olor]] — *Syzygium aromaticum* · Uso tradicional
+- [[Pimienta Rosa]] — *Schinus molle* · Referencia botánica
+- [[Stevia]] — *Stevia rebaudiana* · Uso alimentario
+- [[Panela]] — *Saccharum officinarum* · Uso alimentario
+- [[Limón (fruto)]] — *Citrus × limon* · Uso alimentario
+- [[Naranja (fruto)]] — *Citrus × sinensis* · Uso alimentario
+- [[Frambuesa]] — *Rubus idaeus* · Uso alimentario
+- [[Maracuyá]] — *Passiflora edulis* · Uso alimentario
+- [[Albahaca]] — *Ocimum basilicum* · Uso tradicional
+- [[Hierbabuena]] — *Mentha spicata* · Uso alimentario
+- [[Pisco]] — *Destilado de vino de uva* · Base de preparación
+- [[Aguardiente]] — *Destilado de alta graduación* · Base de preparación
+- [[Chicha de Uva]] — *Mosto de uva parcialmente fermentado* · Base de preparación
+- [[Mosto fermentado]] — *Jugo de uva en fermentación* · Base de preparación
+- [[Ron]] — *Destilado de caña de azúcar* · Base de preparación
+- [[Vodka]] — *Destilado neutro* · Base de preparación
+- [[Gin]] — *Destilado aromatizado con bayas de enebro* · Base de preparación
+- [[Tequila]] — *Destilado de agave azul* · Base de preparación
+- [[Vino Tinto]] — *Fermentado de uva tinta* · Base de preparación
+- [[Vino Blanco]] — *Fermentado de uva sin hollejos* · Base de preparación
+- [[Cerveza Artesanal]] — *Fermentado de cereal malteado con lúpulo* · Base de preparación
+- [[Kombucha]] — *Té fermentado con un cultivo de bacterias y levaduras* · Base de preparación
+- [[Limeta - Lima]] — *Citrus × aurantiifolia* · Uso alimentario
+- [[Pomelo (ralladura)]] — *Citrus × paradisi* · Uso alimentario
+- [[Naranja Amarga]] — *Citrus × aurantium* · Uso tradicional
+- [[Mandarina]] — *Citrus reticulata* · Uso alimentario
+- [[Hinojo]] — *Foeniculum vulgare* · Uso tradicional
+- [[Azafrán]] — *Crocus sativus* · Uso alimentario
+- [[Alcohol neutro 96°]] — *Etanol de 96°* · Base de preparación
+- [[Grappa - Orujo]] — *Destilado de orujo de uva* · Base de preparación
+- [[Agua Caliente]] — *Agua potable caliente* · Base de preparación
+- [[Cera de abejas]] — *Cera producida por las abejas* · Base de preparación
+- [[Alcohol (base)]] — *Etanol diluido* · Base de preparación
+- [[Vinagre de manzana]] — *Vinagre de manzana* · Base de preparación
+- [[Agua 75°C]] — *Agua potable a 75 °C* · Base de preparación
+- [[Agua 85°C]] — *Agua potable a 85 °C* · Base de preparación
+- [[Agua 100°C]] — *Agua potable en ebullición* · Base de preparación
+- [[Leche]] — *Leche de vaca* · Base de preparación
+- [[Bebida de avena]] — *Bebida vegetal de avena (Avena sativa)* · Base de preparación
+- [[Leche de coco]] — *Extracto acuoso de la pulpa del coco* · Base de preparación
+- [[Agua Fría (cold brew)]] — *Agua potable fría* · Base de preparación
+- [[Hielo]] — *Agua potable congelada* · Base de preparación
+- [[Jugo Limón]] — *Citrus × limon* · Base de preparación
+- [[Jarabe Simple]] — *Azúcar disuelta en agua* · Base de preparación
+- [[Agua Tónica]] — *Bebida carbonatada con quinina* · Base de preparación
+- [[Jugo Naranja]] — *Citrus × sinensis* · Base de preparación
+- [[Champán]] — *Vino espumoso* · Base de preparación
+- [[Cerveza]] — *Fermentado de cereal malteado con lúpulo* · Base de preparación
+- [[Ron Blanco]] — *Destilado de caña de azúcar, sin envejecer* · Base de preparación
+- [[Melisa - Toronjil]] — *Melissa officinalis* · Uso tradicional
+- [[Ortiga]] — *Urtica dioica* · Uso tradicional
+- [[Ruda]] — *Ruta chalepensis* · Uso tradicional
+- [[Salvia]] — *Salvia officinalis* · Uso tradicional
+- [[Tilo]] — *Tilia cordata* · Uso tradicional
+- [[Uña de gato]] — *Uncaria tomentosa* · Referencia botánica
+- [[Sangre de grado - Sangre de drago]] — *Croton lechleri* · Referencia botánica
+- [[Chanca piedra]] — *Phyllanthus niruri* · Referencia botánica
+- [[Hercampuri]] — *Gentianella alborosea* · Referencia botánica
+- [[Maca]] — *Lepidium meyenii* · Referencia botánica
+- [[Yacón]] — *Smallanthus sonchifolius* · Referencia botánica
+
+## Ficha por revisar (2)
+- [[Vainilla]] — *Vanilla planifolia · identidad del catálogo original, por revisar*
+- [[Yuzu]]
+
+Ver [[Catálogo de ingredientes]] y [[Fichas educativas]].
