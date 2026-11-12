@@ -3,7 +3,7 @@
   "version": "8.0.0",
   "description": "Herbolario educativo y taller virtual de recetas con ambientación de juego",
   "scripts": {
-    "test": "node --test src/game/nature-v9.test.js src/game/nature.test.js src/game/rules.test.js src/game/catalog-assets.test.js scripts/bruma-api.test.mjs",
+    "test": "node --test src/game/nature-v9.test.js src/game/nature.test.js src/game/rules.test.js src/game/catalog-assets.test.js scripts/bruma-api.test.mjs scripts/serve-game.test.mjs",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"

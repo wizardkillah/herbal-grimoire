@@ -1,8 +1,8 @@
 import http from 'node:http';
-import { createReadStream, statSync } from 'node:fs';
+import { createReadStream, readFileSync, statSync } from 'node:fs';
 import { resolve, relative, sep, extname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { createBrumaHandler } from './bruma-api.mjs';
+import { createBrumaHandler, isLocalHost } from './bruma-api.mjs';
 
 export const root = fileURLToPath(new URL('../dist/', import.meta.url));
 export const PORT_BUSY_MESSAGE = 'El puerto 5173 esta ocupado. No se ha cambiado de puerto ni borrado tu partida. Si ya tienes Grimorio abierto, usa Exportar partida en esa instancia antes de cerrarla. Cierra el programa que ocupa el puerto y vuelve a abrir el lanzador.';
@@ -14,9 +14,26 @@ export function assetPath(url) {
   return file;
 }
 const types = { '.html':'text/html; charset=utf-8', '.js':'text/javascript; charset=utf-8', '.css':'text/css; charset=utf-8', '.json':'application/json; charset=utf-8', '.md':'text/plain; charset=utf-8', '.jpg':'image/jpeg', '.jpeg':'image/jpeg', '.png':'image/png', '.webp':'image/webp', '.svg':'image/svg+xml', '.mp4':'video/mp4', '.woff2':'font/woff2' };
+// Same headers the static hosts get from public/_headers (single source of truth), minus HSTS, which only makes sense over HTTPS.
+export function securityHeaders(file = new URL('../public/_headers', import.meta.url)) {
+  const headers = {};
+  try {
+    let all = false;
+    for (const line of readFileSync(file, 'utf8').split(/\r?\n/)) {
+      if (/^\S/.test(line)) { all = line.trim() === '/*'; continue; }
+      const match = all && /^\s+([A-Za-z-]+):\s*(.+)$/.exec(line);
+      if (match && match[1].toLowerCase() !== 'strict-transport-security') headers[match[1]] = match[2].trim();
+    }
+  } catch { /* The headers are a hardening extra; the game still works without them. */ }
+  return headers;
+}
 export function createGameServer(options = {}) {
   const bruma = createBrumaHandler(options);
+  const common = securityHeaders();
   return http.createServer((req, res) => {
+    // A foreign Host header means DNS rebinding: refuse every route, not only the API.
+    if (!isLocalHost(req.headers.host)) { res.writeHead(403, { 'Content-Type':'text/plain; charset=utf-8', 'X-Content-Type-Options':'nosniff' }); return res.end('Forbidden'); }
+    for (const [name, value] of Object.entries(common)) res.setHeader(name, value);
     if (req.url?.startsWith('/api/bruma')) { void bruma(req,res);return; }
     if (!['GET','HEAD'].includes(req.method)) { res.writeHead(405); return res.end(); }
     if (req.url === '/__grimorio_launcher') {

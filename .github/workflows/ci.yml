@@ -9,6 +9,9 @@ jobs:
         with: { node-version: 22 }
       - run: npm ci
       - run: npm audit --audit-level=high
+      # The server tests serve the built game, so build first.
+      - run: npm run build
+      - run: npm test
   secrets:
     runs-on: ubuntu-latest
     steps:
